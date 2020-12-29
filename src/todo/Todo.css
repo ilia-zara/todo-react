@@ -1,0 +1,7 @@
+.Item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  margin: 30px auto;
+  width: 500px;
+}
