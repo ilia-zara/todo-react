@@ -1,5 +1,5 @@
-const Button = ({ name }) => (
-  <button type="button" className="Form-button">
+const Button = ({ name, className }) => (
+  <button type="button" className={`button ${className}`}>
     {name}
   </button>
 );

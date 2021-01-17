@@ -1,17 +1,12 @@
 import React from "react";
-import Button from "../button/Button.js";
+import "./EditForm.css";
+import TodoForm from "./todo-form/TodoForm.js";
 
-const EditForm = () => (
+const EditForm = (props) => (
   <React.Fragment>
-    <h1>Create Todo</h1>;
+    <h1>Create your todo</h1>;
     <div className="Editor-form">
-      <form>
-        <input type="text" name="text" className="Form-input" />
-        <div className="Form-buttons">
-          <Button name="Add" />
-          <Button name="Clear" />
-        </div>
-      </form>
+      <TodoForm onCreateTodo={props.onCreateTodo} />
     </div>
   </React.Fragment>
 );
