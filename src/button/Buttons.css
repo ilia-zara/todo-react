@@ -1,0 +1,11 @@
+.button {
+  min-width: 120px;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: medium;
+  border: none;
+  color: #fff;
+  transition: color 0.3s;
+  cursor: pointer;
+}

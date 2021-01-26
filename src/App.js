@@ -21,10 +21,10 @@ class TodoApp extends React.Component {
     const { todos } = this.state;
 
     return (
-      <React.Fragment>
+      <div className="app-container">
         <EditForm onCreateTodo={this.handleCreateTodo} />
         <TodoList allTodo={todos} />
-      </React.Fragment>
+      </div>
     );
   }
 }

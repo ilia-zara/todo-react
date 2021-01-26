@@ -1,0 +1,8 @@
+.info-block {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(149, 149, 149);
+}

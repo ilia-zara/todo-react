@@ -4,7 +4,7 @@ import TodoInfoBlock from "./todo-info-block/TodoInfoBlock.js";
 import TodoButtons from "./todo-buttons/TodoButtons.js";
 
 const Todo = ({ todo }) => (
-  <div className="Item">
+  <div className="item" key={todo.id}>
     <TodoText text={todo.text} />
     <TodoInfoBlock
       state={todo.state}

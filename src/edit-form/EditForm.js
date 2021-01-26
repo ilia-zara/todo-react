@@ -3,12 +3,12 @@ import "./EditForm.css";
 import TodoForm from "./todo-form/TodoForm.js";
 
 const EditForm = (props) => (
-  <React.Fragment>
-    <h1>Create your todo</h1>;
-    <div className="Editor-form">
+  <div className="edit-form-container">
+    <h2>Create your todo</h2>
+    <div className="edit-form">
       <TodoForm onCreateTodo={props.onCreateTodo} />
     </div>
-  </React.Fragment>
+  </div>
 );
 
 export default EditForm;

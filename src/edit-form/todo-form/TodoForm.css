@@ -1,0 +1,30 @@
+.input-text {
+  margin-bottom: 10px;
+}
+
+.input-text input {
+  padding: 10px;
+  font-size: large;
+  background-color: rgb(243, 242, 242);
+  border: none;
+  outline: none !important;
+  border-radius: 10px;
+}
+
+#todo-text {
+  width: 100%;
+  font-size: 16px;
+}
+
+.add-button,
+.clear-button {
+  min-width: 60px;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: bolder;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
